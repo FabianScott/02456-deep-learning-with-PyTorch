@@ -71,6 +71,7 @@ class load_data():
 
     def _merge_image_df(self, df, path_dict):
         split_path_dict = dict()
+        print(path_dict)
         for index, row in df.iterrows():
             split_path_dict[row['id']] = path_dict[row['id']]
         image_frame = pd.DataFrame(list(split_path_dict.values()), columns=['image'])
