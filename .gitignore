@@ -105,3 +105,4 @@ venv.bak/
 
 .DS_Store
 4_Convolutional/data/cifar-10-python.tar.gz
+6_Mini_Project/data.pickle
